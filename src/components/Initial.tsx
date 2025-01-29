@@ -58,7 +58,7 @@ const fetchData = async (
   try {
     json = JSON.parse(result);
   } catch (error) {
-    console.error("Failed to json parse: ", result);
+    console.error("Failed to json parse: ", { error, result });
   }
 
   return { statusCode: res.status, result: json || result };
