@@ -100,7 +100,7 @@ const urls = [
     url: "/l402/v1/protected/llm/chat/completion",
     body: JSON.stringify(
       {
-        model: "gpt-4o-2024-11-20",
+        model: "gpt-4o-2024-08-06",
         messages: [{ role: "user", content: "Hello, how are you?" }],
       },
       null,
